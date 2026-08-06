@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "libraryVersion": "2026.08.06.1",
+  "libraryVersion": "2026.08.06.2",
   "entries": [
     {
       "id": "3339553801",
@@ -45,11 +45,11 @@
       "artists": ["野肆乐队Reckless Abandon"],
       "album": "人物·世界",
       "source": "raw-lyrics/2615147490.ttml",
-      "status": "draft",
+      "status": "published",
       "platformIds": {
         "netease": "2615147490"
       },
-      "issues": ["L11 contains a word whose end time is earlier than its begin time"]
+      "issues": []
     },
     {
       "id": "2615147449",
@@ -57,11 +57,11 @@
       "artists": ["野肆乐队Reckless Abandon"],
       "album": "人物·世界",
       "source": "raw-lyrics/2615147449.ttml",
-      "status": "draft",
+      "status": "published",
       "platformIds": {
         "netease": "2615147449"
       },
-      "issues": ["TTML musicName is 拥抱我 but the platform title is 歌颂我，拥抱我"]
+      "issues": []
     },
     {
       "id": "3359687453",
@@ -74,9 +74,7 @@
         "netease": "3359687453"
       },
       "issues": [
-        "L56 x-bg container has end=0.000",
-        "L56 final x-bg word has end=0.000",
-        "TTML ends at 3:46.939 while the local FLAC duration is 3:45.009; verify the 1.930 second difference"
+        "L58 ends at 3:46.939 while the local FLAC enters sustained silence at 3:42.026 and ends at 3:45.009; retime the final line against the audio"
       ]
     }
   ]

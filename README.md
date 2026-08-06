@@ -33,7 +33,7 @@ dist/manifest.json
 
 ## Initial import
 
-首批导入 6 份 TTML。3 份通过校验并可发布，3 份因时间轴或元数据问题保留为草稿。源目录 `C:\Users\Administrator\Desktop\野肆歌词` 不会被本仓库修改。
+首批导入 6 份 TTML。5 份通过校验并可发布，`姓名` 因尾句时间仍需听音复核而保留为草稿。源目录 `C:\Users\Administrator\Desktop\野肆歌词` 不会被本仓库修改。
 
 ## License
 

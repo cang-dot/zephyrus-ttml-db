@@ -67,11 +67,29 @@ function validateTimedNodes(nodes, label, errors) {
   });
 }
 
+function validateDuplicateLines(lines, errors) {
+  const signatures = new Map();
+  lines.forEach((line, index) => {
+    const comparable = { ...line };
+    delete comparable['@_itunes:key'];
+    const signature = JSON.stringify(comparable);
+    const key = line?.['@_itunes:key'] || `line ${index + 1}`;
+    if (signatures.has(signature)) {
+      errors.push(`duplicate lyric lines: ${signatures.get(signature)} and ${key}`);
+    } else {
+      signatures.set(signature, key);
+    }
+  });
+}
+
 function metadataMap(document) {
   const result = new Map();
   for (const item of collectTags(document, 'amll:meta')) {
     const key = item?.['@_key'];
-    if (key) result.set(key, String(item?.['@_value'] || ''));
+    if (!key) continue;
+    const values = result.get(key) || [];
+    values.push(String(item?.['@_value'] || ''));
+    result.set(key, values);
   }
   return result;
 }
@@ -113,14 +131,16 @@ export async function validateEntry(entry) {
   if (words.length === 0) errors.push('TTML must contain timed span words');
   validateTimedNodes(lines, 'line', errors);
   validateTimedNodes(words, 'timed span', errors);
+  validateDuplicateLines(lines, errors);
 
   const metadata = metadataMap(document);
   for (const key of ['musicName', 'artists', 'album']) {
-    if (!metadata.get(key)) errors.push(`missing metadata: ${key}`);
+    if (!(metadata.get(key) || []).some(Boolean)) errors.push(`missing metadata: ${key}`);
   }
-  if (metadata.get('musicName') && metadata.get('musicName') !== entry.title) {
+  const titles = metadata.get('musicName') || [];
+  if (titles.length > 0 && !titles.includes(entry.title)) {
     errors.push(
-      `catalog title does not match musicName (${entry.title} != ${metadata.get('musicName')})`
+      `catalog title is not listed in musicName (${entry.title} not in ${titles.join(' | ')})`
     );
   }
 
@@ -146,6 +166,9 @@ export async function validateCatalog() {
   const platformIds = new Map();
   for (const entry of catalog.entries) {
     const result = await validateEntry(entry);
+    if (entry.status === 'published' && (entry.issues || []).length > 0) {
+      result.errors.push('published entries cannot contain unresolved catalog issues');
+    }
     for (const [platform, platformId] of Object.entries(entry.platformIds || {})) {
       const key = `${platform}:${platformId}`;
       if (platformIds.has(key)) {
