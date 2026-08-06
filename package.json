@@ -1,0 +1,13 @@
+{
+  "name": "zephyrus-ttml-db",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node scripts/validate.mjs",
+    "build": "node scripts/build.mjs"
+  },
+  "dependencies": {
+    "fast-xml-parser": "5.10.1"
+  }
+}
