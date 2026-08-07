@@ -1,11 +1,13 @@
 {
   "schemaVersion": 1,
-  "libraryVersion": "2026.08.07.1",
+  "libraryVersion": "2026.08.07.2",
   "entries": [
     {
       "id": "3339553801",
       "title": "人民艺术家",
-      "artists": ["野肆乐队Reckless Abandon"],
+      "artists": [
+        "野肆乐队Reckless Abandon"
+      ],
       "album": "人民艺术家",
       "source": "raw-lyrics/3339553801.ttml",
       "status": "published",
@@ -22,7 +24,9 @@
     {
       "id": "2606900459",
       "title": "不",
-      "artists": ["野肆乐队"],
+      "artists": [
+        "野肆乐队"
+      ],
       "album": "人物·世界",
       "source": "raw-lyrics/2606900459.ttml",
       "status": "published",
@@ -40,7 +44,9 @@
     {
       "id": "2040669815",
       "title": "黑夜摸象",
-      "artists": ["野肆乐队Reckless Abandon"],
+      "artists": [
+        "野肆乐队Reckless Abandon"
+      ],
       "album": "人物·世界",
       "source": "raw-lyrics/2040669815.ttml",
       "status": "published",
@@ -57,7 +63,9 @@
     {
       "id": "2615147490",
       "title": "我的血换你的血",
-      "artists": ["野肆乐队Reckless Abandon"],
+      "artists": [
+        "野肆乐队Reckless Abandon"
+      ],
       "album": "人物·世界",
       "source": "raw-lyrics/2615147490.ttml",
       "status": "published",
@@ -74,7 +82,9 @@
     {
       "id": "2615147449",
       "title": "歌颂我，拥抱我",
-      "artists": ["野肆乐队Reckless Abandon"],
+      "artists": [
+        "野肆乐队Reckless Abandon"
+      ],
       "album": "人物·世界",
       "source": "raw-lyrics/2615147449.ttml",
       "status": "published",
@@ -91,7 +101,9 @@
     {
       "id": "3359687453",
       "title": "姓名",
-      "artists": ["野肆乐队Reckless Abandon"],
+      "artists": [
+        "野肆乐队Reckless Abandon"
+      ],
       "album": "姓名",
       "source": "raw-lyrics/3359687453.ttml",
       "status": "published",
@@ -102,6 +114,25 @@
         "lyricsText": "not-licensed",
         "timingAndMetadata": "CC-BY-SA-4.0",
         "attribution": "cang-dot"
+      },
+      "issues": []
+    },
+    {
+      "id": "5273412",
+      "title": "重访陈胜吴广",
+      "artists": [
+        "高旗&超载乐队"
+      ],
+      "album": "红星摇滚2000",
+      "source": "raw-lyrics/5273412.ttml",
+      "status": "published",
+      "platformIds": {
+        "netease": "5273412"
+      },
+      "rights": {
+        "lyricsText": "not-licensed",
+        "timingAndMetadata": "CC-BY-SA-4.0",
+        "attribution": "沐苍1024"
       },
       "issues": []
     }
