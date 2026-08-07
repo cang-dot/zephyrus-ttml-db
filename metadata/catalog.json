@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "libraryVersion": "2026.08.06.2",
+  "libraryVersion": "2026.08.07.1",
   "entries": [
     {
       "id": "3339553801",
@@ -11,6 +11,11 @@
       "status": "published",
       "platformIds": {
         "netease": "3339553801"
+      },
+      "rights": {
+        "lyricsText": "not-licensed",
+        "timingAndMetadata": "CC-BY-SA-4.0",
+        "attribution": "cang-dot"
       },
       "issues": []
     },
@@ -25,6 +30,11 @@
         "netease": "2606900459",
         "qq": "002eCDhC3uiusq"
       },
+      "rights": {
+        "lyricsText": "not-licensed",
+        "timingAndMetadata": "CC-BY-SA-4.0",
+        "attribution": "cang-dot"
+      },
       "issues": []
     },
     {
@@ -36,6 +46,11 @@
       "status": "published",
       "platformIds": {
         "netease": "2040669815"
+      },
+      "rights": {
+        "lyricsText": "not-licensed",
+        "timingAndMetadata": "CC-BY-SA-4.0",
+        "attribution": "cang-dot"
       },
       "issues": []
     },
@@ -49,6 +64,11 @@
       "platformIds": {
         "netease": "2615147490"
       },
+      "rights": {
+        "lyricsText": "not-licensed",
+        "timingAndMetadata": "CC-BY-SA-4.0",
+        "attribution": "cang-dot"
+      },
       "issues": []
     },
     {
@@ -61,6 +81,11 @@
       "platformIds": {
         "netease": "2615147449"
       },
+      "rights": {
+        "lyricsText": "not-licensed",
+        "timingAndMetadata": "CC-BY-SA-4.0",
+        "attribution": "cang-dot"
+      },
       "issues": []
     },
     {
@@ -69,13 +94,16 @@
       "artists": ["野肆乐队Reckless Abandon"],
       "album": "姓名",
       "source": "raw-lyrics/3359687453.ttml",
-      "status": "draft",
+      "status": "published",
       "platformIds": {
         "netease": "3359687453"
       },
-      "issues": [
-        "L58 ends at 3:46.939 while the local FLAC enters sustained silence at 3:42.026 and ends at 3:45.009; retime the final line against the audio"
-      ]
+      "rights": {
+        "lyricsText": "not-licensed",
+        "timingAndMetadata": "CC-BY-SA-4.0",
+        "attribution": "cang-dot"
+      },
+      "issues": []
     }
   ]
 }

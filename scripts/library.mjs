@@ -16,6 +16,9 @@ const platformFolders = {
   spotify: 'spotify-lyrics'
 };
 
+const lyricTextRights = new Set(['CC-BY-SA-4.0', 'separately-authorized', 'not-licensed']);
+const timingLicenses = new Set(['CC-BY-SA-4.0']);
+
 const parser = new XMLParser({
   ignoreAttributes: false,
   attributeNamePrefix: '@_',
@@ -151,6 +154,22 @@ export async function validateEntry(entry) {
     if (!String(platformId || '').trim()) errors.push(`empty platform ID: ${platform}`);
   }
 
+  if (!entry.rights || typeof entry.rights !== 'object') {
+    errors.push('missing rights declaration');
+  } else {
+    if (!lyricTextRights.has(entry.rights.lyricsText)) {
+      errors.push(`unsupported lyrics text rights: ${entry.rights.lyricsText || 'empty'}`);
+    }
+    if (!timingLicenses.has(entry.rights.timingAndMetadata)) {
+      errors.push(
+        `unsupported timing and metadata license: ${entry.rights.timingAndMetadata || 'empty'}`
+      );
+    }
+    if (!String(entry.rights.attribution || '').trim()) {
+      errors.push('rights attribution is required');
+    }
+  }
+
   return {
     entry,
     errors,
@@ -214,6 +233,7 @@ export async function buildLibrary() {
       artists: result.entry.artists,
       album: result.entry.album,
       platformIds: result.entry.platformIds,
+      rights: result.entry.rights,
       files,
       sha256: result.sha256,
       bytes: result.bytes

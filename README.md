@@ -37,4 +37,4 @@ dist/manifest.json
 
 ## License
 
-尚未声明公开许可证。创建远端仓库和公开部署前，需要由维护者明确仓库可见性以及歌词内容的授权范围。
+代码和文档采用 AGPL-3.0。歌词文本权利与贡献者制作的时间轴、分词和元数据分开声明，具体以 `metadata/catalog.json` 中每条记录的 `rights` 字段和 `LICENSE.md` 为准。
