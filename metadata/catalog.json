@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "libraryVersion": "2026.08.07.2",
+  "libraryVersion": "2026.08.08.1",
   "entries": [
     {
       "id": "3339553801",
@@ -128,6 +128,25 @@
       "status": "published",
       "platformIds": {
         "netease": "5273412"
+      },
+      "rights": {
+        "lyricsText": "not-licensed",
+        "timingAndMetadata": "CC-BY-SA-4.0",
+        "attribution": "沐苍1024"
+      },
+      "issues": []
+    },
+    {
+      "id": "2744534597",
+      "title": "心房",
+      "artists": [
+        "犬儒乐队"
+      ],
+      "album": "心房",
+      "source": "raw-lyrics/2744534597.ttml",
+      "status": "published",
+      "platformIds": {
+        "netease": "2744534597"
       },
       "rights": {
         "lyricsText": "not-licensed",
