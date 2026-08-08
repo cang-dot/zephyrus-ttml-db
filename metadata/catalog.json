@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "libraryVersion": "2026.08.08.1",
+  "libraryVersion": "2026.08.08.2",
   "entries": [
     {
       "id": "3339553801",
@@ -147,6 +147,25 @@
       "status": "published",
       "platformIds": {
         "netease": "2744534597"
+      },
+      "rights": {
+        "lyricsText": "not-licensed",
+        "timingAndMetadata": "CC-BY-SA-4.0",
+        "attribution": "沐苍1024"
+      },
+      "issues": []
+    },
+    {
+      "id": "2745413403",
+      "title": "上杉朗",
+      "artists": [
+        "犬儒乐队"
+      ],
+      "album": "心房",
+      "source": "raw-lyrics/2745413403.ttml",
+      "status": "published",
+      "platformIds": {
+        "netease": "2745413403"
       },
       "rights": {
         "lyricsText": "not-licensed",
