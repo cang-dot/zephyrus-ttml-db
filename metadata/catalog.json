@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "libraryVersion": "2026.08.08.2",
+  "libraryVersion": "2026.08.08.3",
   "entries": [
     {
       "id": "3339553801",
@@ -166,6 +166,25 @@
       "status": "published",
       "platformIds": {
         "netease": "2745413403"
+      },
+      "rights": {
+        "lyricsText": "not-licensed",
+        "timingAndMetadata": "CC-BY-SA-4.0",
+        "attribution": "沐苍1024"
+      },
+      "issues": []
+    },
+    {
+      "id": "381925",
+      "title": "太阳",
+      "artists": [
+        "唐朝乐队"
+      ],
+      "album": "唐朝 同名专辑",
+      "source": "raw-lyrics/381925.ttml",
+      "status": "published",
+      "platformIds": {
+        "netease": "381925"
       },
       "rights": {
         "lyricsText": "not-licensed",
