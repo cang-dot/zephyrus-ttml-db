@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "libraryVersion": "2026.08.08.3",
+  "libraryVersion": "2026.08.11.1",
   "entries": [
     {
       "id": "3339553801",
@@ -185,6 +185,25 @@
       "status": "published",
       "platformIds": {
         "netease": "381925"
+      },
+      "rights": {
+        "lyricsText": "not-licensed",
+        "timingAndMetadata": "CC-BY-SA-4.0",
+        "attribution": "沐苍1024"
+      },
+      "issues": []
+    },
+    {
+      "id": "2014337720",
+      "title": "THREE-BODY",
+      "artists": [
+        "重塑雕像的权利"
+      ],
+      "album": "THREE-BODY",
+      "source": "raw-lyrics/2014337720.ttml",
+      "status": "published",
+      "platformIds": {
+        "netease": "2014337720"
       },
       "rights": {
         "lyricsText": "not-licensed",
