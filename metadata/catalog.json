@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "libraryVersion": "2026.08.13.5",
+  "libraryVersion": "2026.08.20.1",
   "entries": [
     {
       "id": "3339553801",
@@ -223,6 +223,25 @@
       "status": "published",
       "platformIds": {
         "netease": "2054517809"
+      },
+      "rights": {
+        "lyricsText": "not-licensed",
+        "timingAndMetadata": "CC-BY-SA-4.0",
+        "attribution": "沐苍1024"
+      },
+      "issues": []
+    },
+    {
+      "id": "2626090509",
+      "title": "祝福",
+      "artists": [
+        "梅卡德尔"
+      ],
+      "album": "机器情人",
+      "source": "raw-lyrics/2626090509.ttml",
+      "status": "published",
+      "platformIds": {
+        "netease": "2626090509"
       },
       "rights": {
         "lyricsText": "not-licensed",
