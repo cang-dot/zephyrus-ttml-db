@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "libraryVersion": "2026.08.20.1",
+  "libraryVersion": "2026.08.21.1",
   "entries": [
     {
       "id": "3339553801",
@@ -242,6 +242,25 @@
       "status": "published",
       "platformIds": {
         "netease": "2626090509"
+      },
+      "rights": {
+        "lyricsText": "not-licensed",
+        "timingAndMetadata": "CC-BY-SA-4.0",
+        "attribution": "沐苍1024"
+      },
+      "issues": []
+    },
+    {
+      "id": "2076750566",
+      "title": "声音",
+      "artists": [
+        "机械心乐队"
+      ],
+      "album": "声音",
+      "source": "raw-lyrics/2076750566.ttml",
+      "status": "published",
+      "platformIds": {
+        "netease": "2076750566"
       },
       "rights": {
         "lyricsText": "not-licensed",
