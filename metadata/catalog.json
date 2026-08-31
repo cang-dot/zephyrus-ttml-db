@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "libraryVersion": "2026.08.21.1",
+  "libraryVersion": "2026.08.31.1",
   "entries": [
     {
       "id": "3339553801",
@@ -261,6 +261,25 @@
       "status": "published",
       "platformIds": {
         "netease": "2076750566"
+      },
+      "rights": {
+        "lyricsText": "not-licensed",
+        "timingAndMetadata": "CC-BY-SA-4.0",
+        "attribution": "沐苍1024"
+      },
+      "issues": []
+    },
+    {
+      "id": "3346087746",
+      "title": "欲",
+      "artists": [
+        "莎士比亚的序章"
+      ],
+      "album": "《新世界》",
+      "source": "raw-lyrics/3346087746.ttml",
+      "status": "published",
+      "platformIds": {
+        "netease": "3346087746"
       },
       "rights": {
         "lyricsText": "not-licensed",
