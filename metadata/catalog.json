@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "libraryVersion": "2026.09.09.2",
+  "libraryVersion": "2026.09.10.1",
   "entries": [
     {
       "id": "3339553801",
@@ -299,6 +299,25 @@
       "status": "published",
       "platformIds": {
         "netease": "2136746197"
+      },
+      "rights": {
+        "lyricsText": "not-licensed",
+        "timingAndMetadata": "CC-BY-SA-4.0",
+        "attribution": "沐苍1024"
+      },
+      "issues": []
+    },
+    {
+      "id": "29713329",
+      "title": "北平",
+      "artists": [
+        "霜冻前夜乐队"
+      ],
+      "album": "心像领域",
+      "source": "raw-lyrics/29713329.ttml",
+      "status": "published",
+      "platformIds": {
+        "netease": "29713329"
       },
       "rights": {
         "lyricsText": "not-licensed",
