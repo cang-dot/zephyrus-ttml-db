@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "libraryVersion": "2026.09.08.1",
+  "libraryVersion": "2026.09.09.1",
   "entries": [
     {
       "id": "3339553801",
@@ -280,25 +280,6 @@
       "status": "published",
       "platformIds": {
         "netease": "3346087746"
-      },
-      "rights": {
-        "lyricsText": "not-licensed",
-        "timingAndMetadata": "CC-BY-SA-4.0",
-        "attribution": "沐苍1024"
-      },
-      "issues": []
-    },
-    {
-      "id": "2136746197",
-      "title": "启示录",
-      "artists": [
-        "唯利玉碎计划"
-      ],
-      "album": "淬日纪事",
-      "source": "raw-lyrics/2136746197.ttml",
-      "status": "published",
-      "platformIds": {
-        "netease": "2136746197"
       },
       "rights": {
         "lyricsText": "not-licensed",
