@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "libraryVersion": "2026.09.10.1",
+  "libraryVersion": "2026.10.19.1",
   "entries": [
     {
       "id": "3339553801",
@@ -318,6 +318,25 @@
       "status": "published",
       "platformIds": {
         "netease": "29713329"
+      },
+      "rights": {
+        "lyricsText": "not-licensed",
+        "timingAndMetadata": "CC-BY-SA-4.0",
+        "attribution": "沐苍1024"
+      },
+      "issues": []
+    },
+    {
+      "id": "3448708719",
+      "title": "孔乙己",
+      "artists": [
+        "野肆乐队Reckless Abandon"
+      ],
+      "album": "灵魂手写书",
+      "source": "raw-lyrics/3448708719.ttml",
+      "status": "published",
+      "platformIds": {
+        "netease": "3448708719"
       },
       "rights": {
         "lyricsText": "not-licensed",
